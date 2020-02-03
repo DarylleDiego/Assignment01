@@ -1,7 +1,12 @@
 body{
     background-color: #FC766AFF;
 }
-
 h1, h3{
     color: white;
+}
+h1 {
+    font-size: 250%;
+}
+h3 {
+    font-style: italic;
 }

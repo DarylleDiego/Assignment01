@@ -1,10 +1,11 @@
+header{
+    background-color: teal;
+}
 body{
     background-color: #FC766AFF;
 }
-h1, h3{
-    color: white;
-}
 h1 {
+    color: white;
     font-size: 250%;
 }
 h3 {

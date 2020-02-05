@@ -2,6 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <meta name="description" content="Contact information form for Check I.T.">
+        <meta name="keywords" content="Contact,Info,Form">
         <meta name="author" content="Darylle">
         <meta name="author" content="Jashan">
 
@@ -9,6 +11,62 @@
     </head>
 
     <body>
+        <link rel="stylesheet" href="index.css" type="text/css">
+        <header>
+            <h1>Contact Information Form</h2>
+        </header>
+        <form method="post" action="thankyou.html" name="ContactForm">
+            <input type="hidden" name="subject" value="Contact Form">
+            <h3>All fields with * are mandatory</h3>
+            <p>
+                <label> *Subject:
+                    <input name="subject" type="text" size="35" value="" maxlength="30">
+                </label>
+            </p>
+            <p>
+                <label> *Inquiry:<br>
+                    <textarea name="inquiry" rows="5" cols="50" placeholder="Place body of inquiry here"></textarea>
+                </label>
+            </p>
+            <p>
+                <label> *Email:
+                    <input name="email" type="email" size="35" maxlength="35" pattern="()">
+                </label>
+            </p>
+            <p>
+                <label> Telephone:
+                    <input name="telephone" type="tel" size="25" placeholder="403-XXX-XXXX" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="10">
+                </label>
+            </p>
+            <p>
+                Program:
+                <label> BCIS (MRU)
+                    <input name="program" type="radio" value="bcis">
+                </label>
+                <label> Comp. Science
+                    <input name="program" type="radio" value="cs">
+                </label>
+                <label> I.T. (Non-MRU)
+                    <input name="program" type="radio" value="it">
+                </label>
+            </p>
+            <p>
+                Preferred form of contact:
+                <label> Email
+                    <input name="contact" type="checkbox" value="email">
+                </label>
+                <label> Telephone
+                    <input name="contact" type="checkbox" value="telephone">
+                </label>
+            </p>
+            <p>
+                <label> Date:
+                    <input name="date" type="date">
+                </label>
+            </p>
 
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
+        </form>
     </body>
 </html>

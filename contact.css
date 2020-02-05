@@ -1,11 +1,11 @@
 header {
-    background-color: teal;
+    background-color: turquoise;
 }
 body {
     background-color: #FC766AFF;
 }
 h1 {
-    color: white;
+    color: black;
     font-size: 250%;
 }
 h3 {
@@ -18,8 +18,14 @@ h3 {
 article::first-letter{
     font-size: 200%;
 }
-
+form h3{
+    background: turquoise;
+}
 
 li :hover{
     background-color: yellow;
+}
+#m
+{
+    padding-left: 80px;
 }

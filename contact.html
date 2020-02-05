@@ -11,16 +11,27 @@
     </head>
 
     <body>
-        <link rel="stylesheet" href="index.css" type="text/css">
+        <link rel="stylesheet" href="contact.css" type="text/css">
         <header>
             <h1>Contact Information Form</h2>
         </header>
         <form method="post" action="thankyou.html" name="ContactForm">
             <input type="hidden" name="subject" value="Contact Form">
+
+            <nav>
+                <h2 id="menu">Menu</h3>
+                <ul id="menu">
+                    <li><a href="index.html" >Back to Home page</a></li>
+                    <li><a href="something">something</a></li>
+                </ul>   
+                </nav>
+
             <h3>All fields with * are mandatory</h3>
+
+            <fieldset>
             <p>
                 <label> <span id="box">*Subject:</span>
-                    <input name="subject" type="text" size="35" value="" maxlength="30">
+                    <input name="subject" type="text" size="35" value="" maxlength="30" placeholder="Place your subject">
                 </label>
             </p>
             <p>
@@ -64,6 +75,7 @@
                     <input name="date" type="date">
                 </label>
             </p>
+        </fieldset>
 
             <input type="submit" value="Send">
             <input type="reset" value="Reset">

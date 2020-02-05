@@ -7,7 +7,7 @@
         <meta name="author" content="Darylle">
         <meta name="author" content="Jashan">
 
-        <title>Contact Info</title>
+        <title>Contact Info Form</title>
     </head>
 
     <body>
@@ -19,27 +19,27 @@
             <input type="hidden" name="subject" value="Contact Form">
             <h3>All fields with * are mandatory</h3>
             <p>
-                <label> *Subject:
+                <label> <span id="box">*Subject:</span>
                     <input name="subject" type="text" size="35" value="" maxlength="30">
                 </label>
             </p>
             <p>
-                <label> *Inquiry:<br>
-                    <textarea name="inquiry" rows="5" cols="50" placeholder="Place body of inquiry here"></textarea>
+                <label> <span id="box">*Inquiry:</span><br>
+                    <textarea name="inquiry" rows="5" cols="50" placeholder="Place body of inquiry here" maxlength=""></textarea>
                 </label>
             </p>
             <p>
-                <label> *Email:
-                    <input name="email" type="email" size="35" maxlength="35" pattern="()">
+                <label> <span id="box">*Email:</span>
+                    <input name="email" type="email" size="35" maxlength="35" placeholder="example@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                 </label>
             </p>
             <p>
-                <label> Telephone:
-                    <input name="telephone" type="tel" size="25" placeholder="403-XXX-XXXX" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="10">
+                <label> <span id="box">Telephone:</span>
+                    <input name="telephone" type="tel" size="25" placeholder="403-XXX-XXXX" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="15">
                 </label>
             </p>
             <p>
-                Program:
+                <span id="box">Program:</span>
                 <label> BCIS (MRU)
                     <input name="program" type="radio" value="bcis">
                 </label>
@@ -51,7 +51,7 @@
                 </label>
             </p>
             <p>
-                Preferred form of contact:
+                <span id="box">Preferred form of contact:</span>
                 <label> Email
                     <input name="contact" type="checkbox" value="email">
                 </label>
@@ -60,7 +60,7 @@
                 </label>
             </p>
             <p>
-                <label> Date:
+                <label> <span id="box">Date:</span>
                     <input name="date" type="date">
                 </label>
             </p>

@@ -1,7 +1,7 @@
-header{
+header {
     background-color: teal;
 }
-body{
+body {
     background-color: #FC766AFF;
 }
 h1 {
@@ -10,4 +10,7 @@ h1 {
 }
 h3 {
     font-style: italic;
+}
+#box {
+    background: silver;
 }

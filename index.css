@@ -18,7 +18,9 @@ h3 {
 article::first-letter{
     font-size: 200%;
 }
-
+article{
+    font-size: 25px;
+}
 
 li :hover{
     background-color: yellow;

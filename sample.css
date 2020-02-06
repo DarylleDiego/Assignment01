@@ -4,3 +4,7 @@ header, footer {
 body {
     background-color: #FC766AFF;
 }
+main h3 {
+    display: inline;
+    margin: 2em;
+}

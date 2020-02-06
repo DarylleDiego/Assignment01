@@ -22,10 +22,13 @@ article, fieldset , #tex{
     font-size: 20px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
-
-
 li :hover{
     background-color: yellow;
 }
-
+#uni {
+    font-size: 80%;
+}
+figure{
+    float: right;
+    font-size: 70%;
+}

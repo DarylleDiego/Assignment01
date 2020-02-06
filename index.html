@@ -13,7 +13,7 @@
 
     <body>
         <link rel="stylesheet" href="index.css" type="text/css">
-        <header>
+        <header id="content">
             <h1><img src="images/logo.png" alt="logo" title="Check I.T. logo" width=130 align="center">Check I.T.</h1>
             <h3>A program to help I.T. students in academic and career progression</h3>
         </header>
@@ -40,14 +40,33 @@
 
             <p>
                 Check I.T. has succeeded in helping over thousands of students decide 
-                what field is best them. 
+                what field is best for them. We have had a student success rate of 80% 
+                which is higher than any other website to help I.T. students. We have been 
+                in this industry for years for making programs for multibillion dollar companies.
+                We hope that your experience with Check I.T. is miraculous.
             </p>
         </article>
-        
+
+        <form method="post" action="mailto:rhaid834@mtroyal.ca" enctype="text/plain" name="ReviewForm">
+            <input type="hidden" name="subject" value="Review Form">
+
+        <fieldset>
+            <legend>
+                Tell us about your experience!
+            </legend>
+            <p>
+                <label> 
+                    <textarea name="Review" rows="5" cols="50" placeholder="Tell us about your experience" maxlength=""></textarea>
+                </label>
+            </p>
+
+        </fieldset>
+        <input type="submit" value="Send">
+        <input type="reset" value="Reset">
 
 
-
-
+    </br>
+        <a href="#content" id="tex">Back to Top</a>
 
         <footer>
             <p><i>Copyright &copy; 2020 Check I.T.</i></p>

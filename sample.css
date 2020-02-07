@@ -3,13 +3,34 @@ header, footer {
 }
 body {
     background-color: #FC766AFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main h3 {
+main>h3 {
     display: inline;
     margin: 1em;
 }
+
+
+
+
+#even{
+    background-color: cyan;
+}
+
+#even :hover{
+    color: deeppink;
+}
+
+#odd{
+    background-color: darkorchid;
+}
+
+#odd :hover{
+    color: white;
+}
+
 #career {
     display: inline;
-    margin 2em;
+    margin: 2em;
     font-style: italic;
 }

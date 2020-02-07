@@ -3,6 +3,7 @@ header, footer {
 }
 body {
     background-color: #FC766AFF;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 h1 {
     color: black;

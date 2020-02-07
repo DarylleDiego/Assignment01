@@ -1,10 +1,6 @@
 header, footer {
     background-color: teal;
 }
-body {
-    background-color: #FC766AFF;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 h1 {
     color: white;
     font-size: 250%;
@@ -12,12 +8,9 @@ h1 {
 h3 {
     font-style: italic;
 }
-
 a[target="_blank"]{
     font-size: 110;
 }
-
-
 #box {
     background: silver;
 }
@@ -32,7 +25,7 @@ article, fieldset , #tex{
 nav ul li :hover{
     background-color:yellow;
 }
-#uni {
+.uni {
     font-size: 80%;
 }
 figure{

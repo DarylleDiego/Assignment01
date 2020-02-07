@@ -9,6 +9,7 @@
 
 
         <link rel="stylesheet" href="style/contact.css" type="text/css">
+        <link rel="stylesheet" href="style/main.css" type="text/css">
 
         <title>Contact Info Form</title>
     </head>
@@ -16,7 +17,7 @@
     <!--Form to allow users to contact us about any disfucntionality, assistance, and communication about using Check I.T.-->
     <body>
         <header>
-            <h1 align="middle">Contact Information Form</h2>
+            <h1 class="middle">Contact Information Form</h1>
         </header>
         
         
@@ -27,8 +28,8 @@
             <input type="hidden" name="subject" value="Contact Form">
 
             <nav>
-                <h2 id="menu">Menu</h3>
-                <ul id="menu">
+                <h2>Menu</h2>
+                <ul>
                     <li><a href="index.html" target="_blank">Back to Home page</a></li>
                     <li><a href="sample.html" target="_blank">Check Your Academic/Career Progress</a></li>
                 </ul>   
@@ -37,31 +38,31 @@
 
 
 
-            <h3 id = "m" align="" >All fields with * are mandatory</h3>
+            <h3 id="m">All fields with * are mandatory</h3>
 
             <fieldset>
             <p>
-                <label> <span id="box">*Subject:</span>
+                <label> <span class="box">*Subject:</span>
                     <input name="subject" type="text" size="35" value="" maxlength="30" placeholder="Place your subject">
                 </label>
             </p>
             <p>
-                <label> <span id="box">*Inquiry:</span><br>
-                    <textarea name="inquiry" rows="5" cols="50" placeholder="Place body of inquiry here" maxlength=""></textarea>
+                <label> <span class="box">*Inquiry:</span><br>
+                    <textarea name="inquiry" rows="5" cols="50" placeholder="Place body of inquiry here" maxlength="140"></textarea>
                 </label>
             </p>
             <p>
-                <label> <span id="box">*Email:</span>
+                <label> <span class="box">*Email:</span>
                     <input name="email" type="email" size="35" maxlength="35" placeholder="example@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
                 </label>
             </p>
             <p>
-                <label> <span id="box">Telephone:</span>
+                <label> <span class="box">Telephone:</span>
                     <input name="telephone" type="tel" size="25" placeholder="403-XXX-XXXX" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="15">
                 </label>
             </p>
             <p>
-                <span id="box">Program:</span>
+                <span class="box">Program:</span>
                 <label> BCIS (MRU)
                     <input name="program" type="radio" value="bcis">
                 </label>
@@ -73,7 +74,7 @@
                 </label>
             </p>
             <p>
-                <span id="box">Preferred form of contact:</span>
+                <span class="box">Preferred form of contact:</span>
                 <label> Email
                     <input name="contact" type="checkbox" value="email">
                 </label>
@@ -85,7 +86,7 @@
                 </label>
             </p>
             <p>
-                <label> <span id="box">Date:</span>
+                <label> <span class="box">Date:</span>
                     <input name="date" type="date">
                 </label>
             </p>

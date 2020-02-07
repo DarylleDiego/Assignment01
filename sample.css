@@ -34,3 +34,7 @@ main>h3 {
     margin: 2em;
     font-style: italic;
 }
+tr:nth-child(even){
+    background-color: teal;
+    color: white;
+}

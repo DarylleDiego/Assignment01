@@ -31,3 +31,7 @@ nav ul li :hover{
 #uni {
     font-size: 80%;
 }
+figure{
+    float: right;
+    font-size: 70%;
+}

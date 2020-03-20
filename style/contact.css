@@ -1,9 +1,6 @@
 header, footer {
     background-color: turquoise;
 }
-body {
-    background-color: #FC766AFF;
-}
 h1 {
     color: black;
     font-size: 250%;
@@ -11,7 +8,7 @@ h1 {
 h3 {
     font-style: italic;
 }
-#box {
+.box {
     background: silver;
 }
 

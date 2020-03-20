@@ -8,19 +8,21 @@
         <meta name="author" content="Jashan">
         <meta name="author" content="Darylle">
 
+        <link rel="stylesheet" href="style/index.css" type="text/css">
+        <link rel="stylesheet" href="style/main.css" type="text/css">
+
         <title>Check I.T.</title>
     </head>
 
     <body>
-        <link rel="stylesheet" href="index.css" type="text/css">
         <header id="content">
-            <h1><img src="images/logo.png" alt="logo" title="Check I.T. logo" width=130 align="center">Check I.T.</h1>
+            <h1><img src="images/logo.png" alt="logo" title="Check I.T. logo" width=130 class="middle">Check I.T.</h1>
             <h3>A program to help I.T. students in academic and career progression</h3>
         </header>
 
         <nav>
-        <h2 id="menu">Menu</h2>
-        <ul id="menu">
+        <h2>Menu</h2>
+        <ul>
             <li><a href="contact.html" target="_blank">Contact Us</a></li>
             <li><a href="sample.html" target="_blank">Check Your Academic/Career Progress</a></li>
         </ul>   
@@ -28,6 +30,7 @@
 
         <hr>
 
+        <main>
         <article>
             <p>
             Check I.T. is an online website where students in the I.T. 
@@ -38,6 +41,10 @@
 
         <hr>
 
+        <figure>
+            <img src="images/good.png" alt="" title="After using Check I.T." width=200>
+            <figcaption>How students felt after using Check I.T.</figcaption>
+        </figure>
             <p id="float">
                 Check I.T. has succeeded in helping over thousands of students decide 
                 what field is best for them. We have had a student success rate of 80% 
@@ -51,8 +58,9 @@
             </p>
             
         <hr>
-            <h2 id="uni">Post-Secondary page links</h2>
-            <ul id="uni">
+        <!--This allows user to access post-secondary information-->
+            <h2 class="uni">Post-Secondary page links</h2>
+            <ul class="uni">
                 <li><a href="https://www.mtroyal.ca/" target="_blank">Mount Royal University</a></li>
                 <li><a href="https://www.ucalgary.ca/" target="_blank">University of Calgary</a></li>
                 <li><a href="https://www.sait.ca/" target="_blank">Southern Alberta Institute of Techonology (SAIT)</a></li>
@@ -63,25 +71,28 @@
             
         </article>
 
-        <form method="post" action="mailto:rhaid834@mtroyal.ca" enctype="text/plain" name="ReviewForm">
+        <form method="post" action="mailto:@mtroyal.ca" enctype="text/plain" name="ReviewForm">
             <input type="hidden" name="subject" value="Review Form">
 
-        <fieldset>
-            <legend>
-                Tell us about your experience!
-            </legend>
-            <p>
-                <label> 
-                    <textarea name="Review" rows="5" cols="50" placeholder="Tell us about your experience" maxlength=""></textarea>
-                </label>
-            </p>
+            <!--Allows user to express their opinions on the website functionality to allow for improvements based on feedback-->
+            <fieldset>
+                <legend>
+                    Tell us about your experience!
+                </legend>
+                <p>
+                    <label> 
+                        <textarea name="Review" rows="5" cols="50" placeholder="Tell us about your experience" maxlength="200"></textarea>
+                    </label>
+                </p>
 
-        </fieldset>
-        <input type="submit" value="Send">
-        <input type="reset" value="Reset">
+            </fieldset>
+            <input type="submit" value="Send">
+            <input type="reset" value="Reset">
 
+        </form>
+        </main>
 
-    </br>
+    <br>
         <a href="#content" id="tex">Back to Top</a>
 
         <footer>

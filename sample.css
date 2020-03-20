@@ -1,0 +1,19 @@
+header, footer {
+    background-color: seagreen;
+}
+body {
+    background-color: #FC766AFF;
+}
+main h3 {
+    display: inline;
+    margin: 1em;
+}
+#career {
+    display: inline;
+    margin: 2em;
+    font-style: italic;
+}
+tr:nth-child(even){
+    background-color: teal;
+    color: white;
+}

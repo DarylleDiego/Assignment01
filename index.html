@@ -33,9 +33,17 @@
 
         <main>
 
+            
+            
             <h3>A program to help I.T. students in academic and career progression</h3>
 
-        <article>           
+        <article>    
+            
+            
+            <figure>
+                <img src="images/good.png" alt="" title="After using Check I.T." width=200>
+                <figcaption>How students felt after using Check I.T.</figcaption>
+            </figure>
 
             <p>
             Check I.T. is an online website where students in the I.T. 
@@ -46,20 +54,14 @@
 
         <hr>
 
-        <figure>
-            <img src="images/good.png" alt="" title="After using Check I.T." width=200>
-            <figcaption>How students felt after using Check I.T.</figcaption>
-        </figure>
+        
             <p id="float">
                 Check I.T. has succeeded in helping over thousands of students decide 
                 what field is best for them. We have had a student success rate of 80% 
                 which is higher than any other website to help I.T. students. We have been 
                 in this industry for years for making programs for multibillion dollar companies.
                 We hope that your experience with Check I.T. is miraculous.
-                <figure>
-                    <img src="images/good.png" alt="" title="After using Check I.T." width=200>
-                    <figcaption>How students felt after using Check I.T.</figcaption>
-                </figure>
+                
             </p>
             
         <hr>
@@ -76,26 +78,68 @@
             
         </article>
 
+
+        
         <form method="post" action="mailto:@mtroyal.ca" enctype="text/plain" name="ReviewForm">
-            <input type="hidden" name="subject" value="Review Form">
+            <input type="hidden" name="subject" value="Contact Form">
 
             <!--Allows user to express their opinions on the website functionality to allow for improvements based on feedback-->
             <fieldset>
-                <legend>
-                    Tell us about your experience!
-                </legend>
                 <p>
-                    <label> 
-                        <textarea name="Review" rows="5" cols="50" placeholder="Tell us about your experience" maxlength="200"></textarea>
+                    <label> <span class="box">*Subject:</span>
+                        <input name="subject" type="text" size="35" value="" maxlength="30" placeholder="Place your subject">
                     </label>
                 </p>
-
+                <p>
+                    <label> <span class="box">*Inquiry:</span><br>
+                        <textarea name="inquiry" rows="5" cols="50" placeholder="Place body of inquiry here" maxlength="140"></textarea>
+                    </label>
+                </p>
+                <p>
+                    <label> <span class="box">*Email:</span>
+                        <input name="email" type="email" size="35" maxlength="35" placeholder="example@gmail.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+                    </label>
+                </p>
+                <p>
+                    <label> <span class="box">Telephone:</span>
+                        <input name="telephone" type="tel" size="25" placeholder="403-XXX-XXXX" pattern="[0-9]{3}[\-][0-9]{3}[\-][0-9]{4}" maxlength="15">
+                    </label>
+                </p>
+                <p>
+                    <span class="box">Program:</span>
+                    <label> BCIS (MRU)
+                        <input name="program" type="radio" value="bcis">
+                    </label>
+                    <label> Comp. Science
+                        <input name="program" type="radio" value="cs">
+                    </label>
+                    <label> I.T. (Non-MRU)
+                        <input name="program" type="radio" value="it">
+                    </label>
+                </p>
+                <p>
+                    <span class="box">Preferred form of contact:</span>
+                    <label> Email
+                        <input name="contact" type="checkbox" value="email">
+                    </label>
+                    <label> Telephone
+                        <input name="contact" type="checkbox" value="telephone">
+                    </label>
+                    <label> Text
+                        <input name="contact" type="checkbox" value="text">
+                    </label>
+                </p>
+                <p>
+                    <label> <span class="box">Date:</span>
+                        <input name="date" type="date">
+                    </label>
+                </p>
             </fieldset>
-            <input type="submit" value="Send">
-            <input type="reset" value="Reset">
-
-        </form>
-        </main>
+    
+                <input type="submit" value="Send">
+                <input type="reset" value="Reset">
+            </form>
+            
 
     <br>
         <a href="#content" id="tex">Back to Top</a>

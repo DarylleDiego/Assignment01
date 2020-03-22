@@ -45,24 +45,32 @@ figure{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    nav ul li{
+        list-style: none;
+        display: inline;
+        margin: 1em;
+    }
 
     nav
     {
-        width: 1000px;
-        display: inline;
+        padding: 0.25em;
     }
 
     h3
     {
-        width: 1000px;
+        width: 800px;
         margin-left: auto;
         margin-right: auto;
     }
     figure
     {
-        width: 1000px;
+        display: block;
+        border: 1pt solid teal;
+        background-color: wheat;
+        padding: 5px;
+        width:200px;
         margin-left: auto;
         margin-right: auto;
-        opacity: 0.7;
+        opacity: 0.7; 
     }
 }

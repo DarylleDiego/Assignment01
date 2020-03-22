@@ -53,8 +53,32 @@ figure{
     {
         padding: 0.25em;
     }
-    #item{
-        border: 2px solid black;
+
+    .log
+    {
+       width: 100px;
+       margin-left: auto;
+       margin-right: auto;
+       
+
+
+    }   
+
+    figure
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+
+        display: block;
+        border: 2px solid teal;
+        background-color: wheat;
+        padding: 5px;
+        
+        
+        opacity: 0.7; 
     }
     h3
     {
@@ -89,6 +113,13 @@ figure{
         list-style: none;
         display: inline;
         margin: 1em;
+    }
+
+
+    .log
+    {
+        position: none;
+
     }
     nav
     {
